@@ -143,10 +143,8 @@ function playfieldScreen(){
   for(var i=0;i<9;++i){XO[i]='.';pf[i].src=emptysrc;}
   //consolePF();
   Reseted=true;
-  resetButton.remove();
-  //hook.removeChild(ndiv);
-  hl.remove();
   ndiv.remove();
+  window.location="index.html";
   initscreen();
  }
 
